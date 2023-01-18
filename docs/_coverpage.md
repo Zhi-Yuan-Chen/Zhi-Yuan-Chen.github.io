@@ -2,7 +2,7 @@
 
 ![logo](logo.jpeg)
 
-# 博客基于github维护
+# Keep learning!
 
 > Hitsz CS coder
 
