@@ -2,13 +2,13 @@
 
 ![logo](logo.jpeg)
 
-# docsify <small>3.5</small>
+# 博客基于github维护
 
 > Hitsz CS coder
 
-- 勤于思考 乐于分享
-
+- Java开发 
+- 前端开发
+- ai小白
 
 [GitHub](https://github.com/Zhi-Yuan-Chen)
-
 [Get Started](guide.md)
