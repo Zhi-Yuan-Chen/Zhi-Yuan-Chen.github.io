@@ -1,14 +1,14 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
+![logo](logo.jpeg)
 
 # docsify <small>3.5</small>
 
-> A magical documentation site generator.
+> Hitsz CS coder
 
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
+- 勤于思考 乐于分享
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+
+[GitHub](https://github.com/Zhi-Yuan-Chen)
+
 [Get Started](guide.md)
