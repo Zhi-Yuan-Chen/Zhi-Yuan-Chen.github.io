@@ -7,6 +7,6 @@
     * [css](./前端/css/)
     * [js](./前端/js/)
 * [后端](./后端//) -->
-* [:us:]()
-* [:uk:]()
-* [:cn:]()
+* [:raised_hands:数据库参考](https://www.icourse163.org/learn/HIT-1001516002?tid=1003168008#/learn/quizscore?id=1004004409&aid=2808108854)
+* [:open_hands:前端参考](https://www.runoob.com/js/js-output.html)
+* [:point_right:返回主页](/)
