@@ -4,7 +4,7 @@
 
 # Keep learning!
 
-> Hitsz CS coder
+> 一个不会打代码的工科生
 
 - Java开发 / 前端开发 / ai小白
 

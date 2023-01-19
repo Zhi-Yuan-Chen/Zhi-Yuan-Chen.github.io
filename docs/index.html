@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>CzyCoder</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="renderer" content="webkit">
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
@@ -13,32 +14,80 @@
   <link rel="stylesheet" href="assets/css/main-custom.css">
   <link rel="stylesheet" href="assets/css/button-custom.css">
 
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
-  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <link rel="stylesheet" href="//vox.cab/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+  <!-- <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css"> -->
+  <!-- 文章内导航 -->
+<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-toc@1.0.0/dist/toc.css"> -->
+
+
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">正在疯狂赶到，请稍等</div>
   <script>
     window.$docsify = {
       name: '',
       repo: '',
       loadSidebar: true, 
+      // disqus: 'shortname',
+      search: 'auto', // 默认值
       subMaxLevel: 3 ,
       loadNavbar: true,
       coverpage: true,
       onlyCover: true,
-      search: 'auto',
       count:{
     countable:true,
     fontsize:'0.9em',
     color:'rgb(90,90,90)',
     language:'chinese'
-  }
+  },
+  search: {
+        maxAge: 86400000,//过期时间,单位毫秒,默认一天
+        paths: [], // or 'auto'
+        placeholder: '请输入搜索关键字',
+        noData: '没有搜索到!',
+        depth:3
+	},
+  share: {
+            reddit: true,
+            linkedin: true,
+            facebook: true,
+            twitter: true,
+            whatsapp: true,
+            telegram: true,
+        },
+        copyCode: {
+    buttonText : '复制内容',
+    errorText  : '复制失败',
+    successText: '如果对你有帮助，转发让更多人看到吧',
+  },
+  'flexible-alerts': {
+      style: 'flat'
+    },
+    progress: {
+        position: "top",
+        color: "var(--theme-color,#42b983)",
+        height: "3px",
     }
+      }
   </script>
-  <!-- Docsify v4 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+<!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script> -->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!-- Latest (not recommended for production) -->
+<script src="https://unpkg.com/docsify-copy-code"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <!-- <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
+  <script src="//unpkg.com/docsify-share/build/index.min.js"></script>
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/disqus.min.js"></script> -->
+  <!-- <script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script> -->
+  <!-- 文章内导航 -->
+<!-- <script src="//cdn.jsdelivr.net/npm/docsify-toc@1.0.0/dist/toc.js"></script> -->
+
 </body>
 </html>
