@@ -23,12 +23,14 @@
 <!-- 侧边栏插件 -->
 <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+<!-- 评论系统 -->
+<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
 </head>
 <body>
   <div id="app">正在疯狂赶到，请稍等</div>
   <script>
     window.$docsify = {
-      name: '',
+      name: '目录',
       repo: '',
       loadSidebar: true, 
       // disqus: 'shortname',
@@ -95,26 +97,26 @@
     crossChapter: true,
     crossChapterText: true,
   },
-  plugins: [
-        function (hook, vm) {
-          // load livere
-          hook.beforeEach(function(content) {
-              var comment = "<div id='lv-container' data-id='city' data-uid='Mi8xLzM='></div>\n\n----\n"
-              return content + comment;
-          });
+  // plugins: [
+  //       function (hook, vm) {
+  //         // load livere
+  //         hook.beforeEach(function(content) {
+  //             var comment = "<div id='lv-container' data-id='city' data-uid='Mi8xLzM='></div>\n\n----\n"
+  //             return content + comment;
+  //         });
 
-          hook.doneEach(function() {
-             (function(d, s) {
-                 var j, e = d.getElementsByTagName(s)[0];
-                 if (typeof LivereTower === 'function') { return; }
-                 j = d.createElement(s);
-                 j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-                 j.async = true;
-                 e.parentNode.insertBefore(j, e);
-             })(document, 'script');
-          });
-        },
-      ],
+  //         hook.doneEach(function() {
+  //            (function(d, s) {
+  //                var j, e = d.getElementsByTagName(s)[0];
+  //                if (typeof LivereTower === 'function') { return; }
+  //                j = d.createElement(s);
+  //                j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+  //                j.async = true;
+  //                e.parentNode.insertBefore(j, e);
+  //            })(document, 'script');
+  //         });
+  //       },
+  //     ],
       }
   </script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
@@ -138,6 +140,19 @@
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
   <!-- 评论系统 -->
-
+  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script>
+  const gitalk = new Gitalk({
+    clientID: 'bfa477ba19f2c8be521e',
+    clientSecret: 'f2d9766ba5ea6c8045ef70a2ccb4d7d124a55e45',
+    repo:'blogComment',
+    owner:'Zhi-Yuan-Chen',
+    admin: ['Zhi-Yuan-Chen'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    // facebook-like distraction free mode
+    distractionFreeMode: false
+  })
+</script>
 </body>
 </html>
