@@ -25,13 +25,22 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 <!-- 评论系统 -->
 <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+<!-- 公式 -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+<!-- 夜间模式 -->
+<link 
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css"
+    title="docsify-darklight-theme"
+    type="text/css"
+/>
 </head>
 <body>
   <div id="app">正在疯狂赶到，请稍等</div>
   <script>
     window.$docsify = {
       name: '目录',
-      repo: '',
+      repo: 'true',
       loadSidebar: true, 
       // disqus: 'shortname',
       search: 'auto', // 默认值
@@ -40,6 +49,13 @@
       loadNavbar: true,
       coverpage: true,
       onlyCover: true,
+      mergeNavbar: true,
+      corner: {
+        // the icon link url to another site  
+        url: "https://gitlab.com/gitlab-org/gitlab-svgs", 
+        // the default preset icon in docsify-corner  
+        icon: "github", 
+      },
       toc: {
     scope: '.markdown-section',
     headings: 'h1, h2, h3, h4, h5, h6',
@@ -68,7 +84,9 @@
         paths: [], // or 'auto'
         placeholder: '请输入搜索关键字',
         noData: '没有搜索到!',
-        depth:3
+        depth:4,
+        hideOtherSidebarContent: false,
+        namespace: 'czyCoder',
 	},
   share: {
             reddit: true,
@@ -153,6 +171,17 @@
     // facebook-like distraction free mode
     distractionFreeMode: false
   })
+</script>
+<!-- 公式 -->
+<script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/marked@4"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+<!-- 右上角插件 -->
+<script src="//cdn.jsdelivr.net/npm/docsify-corner/dist/docsify-corner.js"></script>
+<!-- 夜间模式 -->
+<script 
+    src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"
+    type="text/javascript">
 </script>
 </body>
 </html>
