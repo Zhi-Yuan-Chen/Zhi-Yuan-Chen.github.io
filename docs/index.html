@@ -41,6 +41,7 @@
     window.$docsify = {
       name: '目录',
       repo: 'true',
+      logo:'../image/direct.svg',
       loadSidebar: true, 
       // disqus: 'shortname',
       search: 'auto', // 默认值
@@ -49,6 +50,8 @@
       loadNavbar: true,
       coverpage: true,
       onlyCover: true,
+      loadFooter: true,
+      loadFooter: '_footer.md',
       mergeNavbar: true,
       corner: {
         // the icon link url to another site  
@@ -143,6 +146,8 @@
   <!-- emoji插件 -->
   <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- 页脚文件 -->
+  <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer/dist/docsify-footer.min.js"></script>
   <!-- 复制插件 -->
   <script src="https://unpkg.com/docsify-copy-code"></script>
   <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
