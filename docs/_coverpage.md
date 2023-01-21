@@ -10,5 +10,5 @@
 
 
 [GitHub地址](https://github.com/Zhi-Yuan-Chen)
-[联系方式](guide.md)
+[联系方式](http://wpa.qq.com/msgrd?v=3&uin=861961318&site=qq&menu=yes)
 [进入文档](guide.md)
