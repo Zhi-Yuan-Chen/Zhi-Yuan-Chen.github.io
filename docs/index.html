@@ -337,7 +337,7 @@
 
   /*滚动条样式 start*/
   /* 滚动条宽度 */
-  ::-webkit-scrollbar{width:5px;}
+  ::-webkit-scrollbar{width:8px;}
   /* 滚动条颜色 */
   ::-webkit-scrollbar-thumb{
     background: #33a9dc;
@@ -356,6 +356,7 @@
       name: '目录',
       repo: 'true',
       logo:'../image/direct.svg',
+      themeColor: '#76becc',
       loadSidebar: true, 
       // disqus: 'shortname',
       search: 'auto', // 默认值
@@ -398,11 +399,10 @@
   },
   search: {
         maxAge: 86400000,//过期时间,单位毫秒,默认一天
-        paths: [], // or 'auto'
+        paths: 'auto', // or 'auto'
         placeholder: '🔍 搜索',
         noData: '😒 找不到结果',
-        depth:4,
-        hideOtherSidebarContent: false,
+        depth:6,
         namespace: 'czyCoder',
 	},
   share: {
@@ -515,13 +515,13 @@
 <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script> -->
 
 <!-- 使用 Gitter 实现一个 IM 即时通讯聊天室功能 -->
-<script>
+<!-- <script>
   ((window.gitter = {}).chat = {}).options = {
     room: 'enjoytoshare/community'
   };
-</script>
+</script> -->
 
-<script src="https://notebook.js.org/plugin/sidecar.v1.js" async defer></script>
+<!-- <script src="https://notebook.js.org/plugin/sidecar.v1.js" async defer></script> -->
 <script src="//cdn.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/js/click_heart.js"></script>
 <!-- 复制提醒 -->
  <!-- 复制提醒 -->
@@ -540,8 +540,8 @@
   $(document).ready(function () {
     $.goup({
       trigger: 100,
-      bottomOffset: 220,
-      locationOffset: 900,
+      bottomOffset: 10,
+      locationOffset: 450,
       // title: 'TOP',
       titleAsText: true
     });
@@ -563,7 +563,7 @@
       "width": 70,  //小萝莉的宽度
       "height": 140, //小萝莉的高度
       "hOffset": 35,
-      "vOffset": -20
+      "vOffset": -10
     },
     "mobile": {
       "show": true,
@@ -578,5 +578,12 @@
 
 <!-- 灯笼 -->
 <script src="https://cdn.jsdelivr.net/gh/fz6m/china-lantern@1.1/dist/china-lantern.min.js"></script>
+
+<!-- 樱花 -->
+<!-- <script src="https://files.cnblogs.com/files/quaint/sakuraPlus.js"></script> -->
+<!-- <script src="https://www.xinua.cn/api/yinghua"></script>  //樱花 -->
+
+<!-- 人体时钟 -->
+<!-- <script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script> -->
 </body>
 </html>
