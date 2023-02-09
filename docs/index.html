@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Czy's notebook 🌹</title>
   <link rel="icon" href="https://notebook.js.org/images/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -9,8 +10,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link href="https://handsome.xhhdd.cc/fontawesome-free-5.15.4-web/css/fontawesome.css" rel="stylesheet">
-    <link href="https://handsome.xhhdd.cc/fontawesome-free-5.15.4-web/css/brands.css" rel="stylesheet">
-    <link href="https://handsome.xhhdd.cc/fontawesome-free-5.15.4-web/css/solid.css" rel="stylesheet">
+  <link href="https://handsome.xhhdd.cc/fontawesome-free-5.15.4-web/css/brands.css" rel="stylesheet">
+  <link href="https://handsome.xhhdd.cc/fontawesome-free-5.15.4-web/css/solid.css" rel="stylesheet">
      <!-- docsify-themeable styles-->
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="light"> -->
   <!-- <link rel="stylesheet" href="assets/css/main-custom.css">
@@ -29,7 +30,7 @@
 <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 <!-- 评论系统 -->
-<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="https://wugenqiang.gitee.io/notebook/plugin/gitalk.css">
 <!-- 公式 -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
 <!-- 夜间模式 -->
@@ -483,9 +484,11 @@
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 
   <!-- 评论系统 -->
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://wugenqiang.gitee.io/notebook/plugin/gitalk.js"></script>
+  <script src="https://wugenqiang.gitee.io/notebook/plugin/gitalk.min.js"></script>
+  <script src="https://wugenqiang.gitee.io/notebook/plugin/md5.min.js"></script>
 <script>
+  window.title_id = window.location.hash.match(/#(.*?)([?]|$)/) ? window.location.hash.match(/#(.*?)([?]|$)/)[1] : '/';
   const gitalk = new Gitalk({
     clientID: 'bfa477ba19f2c8be521e',
     clientSecret: 'f2d9766ba5ea6c8045ef70a2ccb4d7d124a55e45',
@@ -496,6 +499,12 @@
     // facebook-like distraction free mode
     distractionFreeMode: false
   })
+  // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
+  window.onhashchange = function (event) {
+    if (event.newURL.split('?')[0] !== event.oldURL.split('?')[0]) {
+      location.reload()
+    }
+  }
 </script>
 <!-- 公式 -->
 <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
@@ -585,5 +594,10 @@
 
 <!-- 人体时钟 -->
 <!-- <script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script> -->
+
+<script src="https://files.cnblogs.com/files/wkfvawl/mouse-click.js"></script>
+<canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
+
+
 </body>
 </html>
