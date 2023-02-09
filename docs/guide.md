@@ -12,6 +12,8 @@
 
 <br>
 
+
+
 # 🎓兴趣方向
 
 - 🍵Java面向对象开发
@@ -21,8 +23,9 @@
 本科阶段大概率从事 Java 软件开发工作 本人 ↓↓↓
 <img src="https://gitee.com/wugenqiang/PictureBed/raw/master/NoteBook/20200617115404.jpg" alt="logo" style="zoom:25%;" />
 
-
 <br>
+
+
 
 # 💻个人简介
 

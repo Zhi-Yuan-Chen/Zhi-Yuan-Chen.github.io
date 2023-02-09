@@ -1,3 +1,7 @@
+![](../docs/image/foot.svg)
+
+------
+
 感谢您的访问:sparkling_heart: 
 
 如有问题欢迎私信:star:
