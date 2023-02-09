@@ -499,12 +499,6 @@
     // facebook-like distraction free mode
     distractionFreeMode: false
   })
-  // 监听URL中hash的变化，如果发现换了一个MD文件，那么刷新页面，解决整个网站使用一个gitalk评论issues的问题。
-  window.onhashchange = function (event) {
-    if (event.newURL.split('?')[0] !== event.oldURL.split('?')[0]) {
-      location.reload()
-    }
-  }
 </script>
 <!-- 公式 -->
 <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
@@ -593,7 +587,7 @@
 <!-- <script src="https://www.xinua.cn/api/yinghua"></script>  //樱花 -->
 
 <!-- 人体时钟 -->
-<!-- <script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script> -->
+<script charset="Shift_JIS" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_tr.js"></script>
 
 <script src="https://files.cnblogs.com/files/wkfvawl/mouse-click.js"></script>
 <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas>
