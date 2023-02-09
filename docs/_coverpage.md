@@ -4,7 +4,7 @@
 
 > 基于 Markdown+Github Pages 的个人知识库
 
-- Java开发 / 前端开发 / ai小白
+- "平静比快乐更难得。"
 
 <!--卜蒜子统计-->
 <span id="busuanzi_container_site_pv">
