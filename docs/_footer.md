@@ -1,6 +1,9 @@
-
-
 ------
+
+<!-- 自定义特色样式：by myself -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/css/me.css">
+
+  <div class = "over" >完结</div>
 
 被你看到 实属有幸 愿你开心🍁 
 
