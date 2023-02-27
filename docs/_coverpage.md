@@ -2,7 +2,7 @@
 
 # Keep learning!
 
-> 基于 Markdown+Github Pages 的个人知识库
+> 基于 Markdown+Docsify+Github Pages 的个人知识库
 
 - "平静比快乐更难得。"
 
@@ -11,5 +11,5 @@
 👀    访问量 <span id="busuanzi_value_site_pv"></span> 3450 次
 </span>|🚴‍♂️    访客数<span id="busuanzi_value_site_uv"></span> 678 人次
 
-[联系方式](http://wpa.qq.com/msgrd?v=3&uin=861961318&site=qq&menu=yes)
+[个人站点](https://nav.xhhdd.cc/)
 [进入文档](guide.md)

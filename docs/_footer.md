@@ -1,10 +1,10 @@
-![](../docs/image/foot.svg)
+
 
 ------
 
-感谢您的访问:sparkling_heart: 
+被你看到 实属有幸 愿你开心🍁 
 
-如有问题欢迎私信:star:
+敢于争取 提出诉求 全力以赴🍂
 
-Copyright © 2023 - 至今 [🏷️ EnjoyToShare ](https://zhi-yuan-chen.github.io/#/)一个人可以走的很快，但一群人才能走的更远！
+Copyright © ChenZhiyuan 2023 - 至今 [🏷️ EnjoyToShare ](https://zhi-yuan-chen.github.io/#/)向前才是唯一的答案。
 

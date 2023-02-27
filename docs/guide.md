@@ -1,10 +1,10 @@
 # 📙关于博客
 
-!> <b>说明</b>：做一个有趣的爱分享的人，记录本科及研究生阶段所学的计算机专业知识，力求构建「AI & CS & SE」知识体系。 ( •̀ ω •́ )✧🔑
+!><b>说明</b>：做一个有趣的爱分享的人，记录本科及研究生阶段所学的计算机专业知识，力求构建「AI & CS & SE」知识体系。 ( •̀ ω •́ )✧🔑
 
 * ⏳ 爱分享，爱生活！在我眼里，`你永远是不一样的烟火`！觉得还不错的话，记得好好学习吖！
 * ✨ 本仓库建立的初衷是为了记录一路走来学习的计算机专业知识，方便之后复习与查看。`起于此，但不止于此`，在不断的摸索和完善，勤能补拙，相信一点点的积累最后汇聚成海！希望我的这个小小的计划，可以帮助到实力强大的你！`止于至善`  🧡🧡
-* 文章内容仅是我个人的小总结，如有误还请指正🥤
+* 🥰 文章内容仅是我个人的小总结，如有误还请指正🥤
 <br>
 <br>
 <img src="https://img.shields.io/github/stars/wugenqiang/NoteBook" data-origin="https://img.shields.io/github/stars/wugenqiang/NoteBook" alt=""> 
@@ -12,7 +12,7 @@
 
 <br>
 
-
+![](../docs/image/foot.svg)
 
 # 🎓兴趣方向
 
@@ -20,12 +20,11 @@
 - 📌html+css+javascript前端开发
 - 👒ai方向(小白)
 <br>
-本科阶段大概率从事 Java 软件开发工作 本人 ↓↓↓
-<img src="https://gitee.com/wugenqiang/PictureBed/raw/master/NoteBook/20200617115404.jpg" alt="logo" style="zoom:25%;" />
+本科阶段大概率从事 Java 软件开发工作 
 
 <br>
 
-
+![](../docs/image/foot.svg)
 
 # 💻个人简介
 
