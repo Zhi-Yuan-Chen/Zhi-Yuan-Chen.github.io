@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/css/me.css">
 
   <div class = "over" >完结</div>
+<span id="sitetime"></span>
 
 被你看到 实属有幸 愿你开心🍁 
 

@@ -8,8 +8,8 @@
 
 <!--卜蒜子统计-->
 <span id="busuanzi_container_site_pv">
-👀    访问量 <span id="busuanzi_value_site_pv"></span> 3450 次
-</span>|🚴‍♂️    访客数<span id="busuanzi_value_site_uv"></span> 678 人次
+👀    访问量 <span id="busuanzi_value_site_pv"></span>次
+</span>|🚴‍♂️    访客数<span id="busuanzi_value_site_uv"></span>人次
 
 [个人站点](https://nav.xhhdd.cc/)
 [进入文档](guide.md)
