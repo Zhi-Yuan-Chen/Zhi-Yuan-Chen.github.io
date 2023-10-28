@@ -6,7 +6,7 @@
   <link href="https://noionion.top/atom.xml" rel="self"/>
   
   <link href="https://noionion.top/"/>
-  <updated>2023-10-28T12:44:16.000Z</updated>
+  <updated>2023-10-28T12:51:39.000Z</updated>
   <id>https://noionion.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HGCN论文模型代码follow</title>
+    <link href="https://noionion.top/1288.html"/>
+    <id>https://noionion.top/1288.html</id>
+    <published>2023-10-28T12:51:39.000Z</published>
+    <updated>2023-10-28T12:51:39.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>HGCN论文阅读</title>
